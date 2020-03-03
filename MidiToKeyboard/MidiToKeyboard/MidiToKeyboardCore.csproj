@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company />
+    <Authors />
+    <Copyright>Open Source</Copyright>
+    <PackageProjectUrl>https://github.com/IcECreAm777/MidiToKeyboard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/IcECreAm777/MidiToKeyboard</RepositoryUrl>
+    <Description>A tool mapping midi inputs to keyboard inputs.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Melanchall.DryWetMidi" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
